@@ -1,0 +1,82 @@
+print("Nyeh-he-he")
+#Begine1. dana storona a. naytu ego P. P = 4*aa = 4
+P = 4 * aprint('P = ', P)
+##Begine2. dana storona naytu S= a*a
+print(' vvedite teloe chislo ', end = ' ')a = int(input())
+S = a * aprint('S = ', S)
+##Begin3◦
+##. Даны стороны прямоугольника a и b. Найти его площадь S = a·b и##периметр P = 2·(a + b).
+print(' vvedite teloe chislo a,b ', end = ' ')
+a = int(input())b = int(input())
+S = a * bP = 2 * (a + b)
+print('S = ', S)print('P = ', P)
+##Begin4◦
+##. Дан диаметр окружности d. Найти ее длину L = π·d. В качестве##значения π использовать 3.14
+print(' vvedite teloe chislo d ', end = ' ')d = int(input())
+n = 3.14L = n * d
+print('L = ', L)
+##Begin5◦##. Дана длина ребра куба a. Найти объем куба V = a
+##3 и площадь его##поверхности S = 6·a*a
+print(' vvedite teloe chislo a ', end = ' ')a = int(input())
+V = a * a * aS = 6 * a * a
+print('S = ', S)print('V = ', V)
+##Begin6◦
+##. Даны длины ребер a, b, c прямоугольного параллелепипеда. Найти##его объем V = a·b·c и площадь поверхности S = 2·(a·b + b·c + a·c).
+print(' vvedite teloe chislo a,b,c ', end = ' ')a = int(input())
+b = int(input())c = int(input())
+V = a * b * cS = 2 * (a * b + b * c + a * c)
+print('S = ', S)print('V = ', V)
+##Begin7◦
+##. Найти длину окружности L и площадь круга S заданного радиуса R:##L = 2·π·R, S = π·R
+##2##.
+##В качестве значения π использовать 3.14.
+print(' vvedite teloe chislo R ', end = ' ')R = int(input())
+n = 3.14L = 2 * n * R
+S = n * Rprint('S = ', S)
+print('L = ', L)
+##Begin8◦##. Даны два числа a и b. Найти их среднее арифметическое: (a + b)/2.
+print(' vvedite teloe chislo a,b ', end = ' ')a = int(input())
+b = int(input())srednee = (a + b) / 2
+print('srednee = ', srednee)
+##Begin9◦##. Даны два неотрицательных числа a и b. Найти их среднее геометрическое, то есть квадратный корень из их произведения: √
+##a·b.print(' vvedite teloe ne otrit chislo a,b ', end = ' ')
+import matha = int(input())
+b = int(input())print('srednee geometricheskoe', math.sqrt(a*b))
+##Begin10◦
+##. Даны два ненулевых числа. Найти сумму, разность, произведение и##частное их квадратов.
+print(' vvedite teloe ne otrit chislo a,b ', end = ' ')a = int(input())
+b = int(input())summa = a*a + b*b
+raznost = a*a - b*bproizvedenie = a*a * b*b
+print(' summa = ', summa)print(' raznost = ', raznost)
+print(' proizvedenie = ', proizvedenie)
+##Begin11◦##. Даны два ненулевых числа. Найти сумму, разность, произведение и
+##частное их модулей.print(' vvedite teloe ne otrit chislo a,b ', end = ' ')
+import matha = int(input())
+b = int(input())am = math.fabs(a)
+bm = math.fabs(b)print(am+bm)
+print(am-bm)print(am*bm)
+##Begin12◦
+##. Даны катеты прямоугольного треугольника a и b. Найти его гипотенузу c и периметр P:##c =√a2 + b2, P = a + b + c
+print(' vvedite teloe ne otrit chislo a,b ', end = ' ')
+import matha = int(input())
+b = int(input())aa = a * 2
+bb = b * 2h = aa + bb
+c = math.sqrt(h)print('c', c)
+P = a + b + cprint('P', P)
+##Begin13◦
+##. Даны два круга с общим центром и радиусами R1 и R2 (R1 > R2).##Найти площади этих кругов S1 и S2, а также площадь S3 кольца, внешний
+##радиус которого равен R1, а внутренний радиус равен R2:##S1 = π·(R1)2
+##, S2 = π·(R2)2##, S3 = S1 − S2.
+print(' vvedite teloe ne otrit chislo R1,R2 ', end = ' ')R1 = int(input())
+R2 = int(input())n = 3.14
+S1 = n * R1 * R1S2 = n * R2 * R2
+S3 = S1 − S2print('S1', S1)
+print('S2', S2)print('S3', S3)
+##Begin14◦
+##. Дана длина L окружности. Найти ее радиус R и площадь S круга,##ограниченного этой окружностью, учитывая, что L = 2·π·R, S = π·R
+##2##. В
+##качестве значения π использовать 3.14.
+print(' vvedite teloe ne otrit chislo L ', end = ' ')L = int(input())
+n = 3.14R = L / (2 * n)
+S = n * R * Rprint('R', R)
+print('S', S)
