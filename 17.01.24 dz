@@ -1,0 +1,42 @@
+##Array20. Дан массив размера N и целые числа K и L (1 ≤ K ≤ L ≤ N). Найти
+##сумму элементов массива с номерами от K до L включительно.
+from random import randint
+mas = []
+for i in range(15):
+    mas.append(randint(0,100))
+summ = 0
+for num in mas:
+    if (num >= 1) or (num <= len(mas)):
+        summ = summ + num
+print(summ)
+         
+  
+
+
+##Array21. Дан массив размера N и целые числа K и L (1 ≤ K ≤ L ≤ N).
+##Найти среднее арифметическое элементов массива с номерами от K до L
+##включительно.
+from random import randint
+mas = []
+for i in range(15):
+    mas.append(randint(0,100))
+summ = 0
+for num in mas:
+    if (num >= 1) or (num <= len(mas)):
+        summ = summ + num
+print(summ / len(mas))
+
+
+
+##Array22. Дан массив размера N и целые числа K и L (1 < K ≤ L ≤ N). Найти
+##сумму всех элементов массива, кроме элементов с номерами от K до L
+##включительно.
+from random import randint
+mas = []
+for i in range(15):
+    mas.append(randint(0,100))
+summ = 0
+for num in mas:
+    if (num <= 1) or (num > len(mas)):
+        summ = summ + num
+print(summ)
